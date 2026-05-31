@@ -1,30 +1,21 @@
-A reusable and flexible Paragraph component built with React, Tailwind CSS, and class-variance-authority (CVA).
-It supports multiple variants, sizes, and the ability to render as different HTML elements using Radix Slot.
+# Paragraph Component
 
-✨ Features
-🎨 Multiple style variants (default, success, error)
-📏 Flexible text sizes (sm, md, lg)
-🔁 Reusable and scalable design
-⚡ Built with class-variance-authority for clean variant handling
-🔧 Utility function cn for smart Tailwind class merging
-🧩 Supports asChild using Radix Slot
-📦 Installation
+A reusable and flexible Paragraph component built with React, Tailwind CSS, and class-variance-authority (CVA).  
+It allows easy control over text styles using variants and sizes, and supports rendering as different elements using Radix Slot.
 
-Make sure you have the required dependencies:
+---
 
+## Features
+
+- Multiple style variants (default, success, error)
+- Flexible sizes (sm, md, lg)
+- Clean class management using CVA
+- Tailwind class merging with `cn` utility
+- Support for rendering as different elements using `asChild`
+
+---
+
+## Installation
+
+```bash
 npm install class-variance-authority clsx tailwind-merge @radix-ui/react-slot
-📁 File Structure
-components/
- └── ui/
-      └── paragraph.jsx
-
-lib/
- └── utils.js
-🧠 How It Works
-
-The component uses cva to define style variants:
-
-variant → controls text color
-size → controls font size
-
-It also uses a cn helper to merge Tailwind classes safely.
