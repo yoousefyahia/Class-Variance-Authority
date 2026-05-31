@@ -1,11 +1,11 @@
-# 📄 Paragraph Component
+#  Paragraph Component
 
 A highly reusable and scalable **Paragraph UI component** built with **React**, **Tailwind CSS**, and **class-variance-authority (CVA)**.  
 It provides a clean way to manage typography styles using a variant-based system, similar to modern UI libraries like **shadcn/ui**.
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This component solves the problem of messy `className` conditions in React by introducing a **structured styling system**:
 
@@ -17,16 +17,16 @@ This component solves the problem of messy `className` conditions in React by in
 
 ## ✨ Features
 
-- 🎨 Multiple style variants (`default`, `success`, `error`)
-- 📏 Flexible typography sizes (`sm`, `md`, `lg`)
-- ⚡ Built using `class-variance-authority` (clean variant system)
-- 🧩 Supports polymorphic rendering using `asChild`
-- 🔧 Smart Tailwind merging using `cn` utility
-- 📦 Fully reusable and scalable component design
+-  Multiple style variants (`default`, `success`, `error`)
+-  Flexible typography sizes (`sm`, `md`, `lg`)
+-  Built using `class-variance-authority` (clean variant system)
+-  Supports polymorphic rendering using `asChild`
+-  Smart Tailwind merging using `cn` utility
+-  Fully reusable and scalable component design
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Install required dependencies:
 
